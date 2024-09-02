@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    background: gray;
+    color: aqua;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input {
+    margin-bottom: 30px;
+}
+
+.container {
+    margin: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+li a {
+    font-size: 1.2em;
+}
+
+li p {
+    margin-right: 20px;
+    margin-left: 8vw;
+}
+
+li a:hover {
+    color: blueviolet;
+}
+
+button {
+    background-color: chocolate;
+    padding: 0 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+textarea {
+    min-width: 60vw;
+    min-height: 50px;
+}
+
+.ui-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.ui-box button {
+    min-height: 50px;
+}
